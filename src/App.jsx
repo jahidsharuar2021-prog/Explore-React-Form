@@ -4,6 +4,7 @@ import ControlField from './Components/ControlledField/ControlField.jsx';
 import FromAction from './Components/FromAction/FromAction.jsx';
 import SimpleForm from "./Components/SimpleForm/SimpleForm.jsx";
 import UncontrolledField from './Components/UncontrolledField/UncontrolledField.jsx';
+import HookForm from './Hooks/HookFrom/HookForm.jsx';
 
 function App() {
  
@@ -14,7 +15,8 @@ function App() {
       {/* <SimpleForm></SimpleForm> */}
       {/* <FromAction></FromAction> */}
       {/* <ControlField></ControlField> */}
-      <UncontrolledField></UncontrolledField>
+      {/* <UncontrolledField></UncontrolledField> */}
+      <HookForm></HookForm>
     </>
   )
 }
